@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: JeffPersonalityTest
+  host: JeffPersonalityTest
+  disk_quota: 1024M
+  services:
+  - JeffPersonalityTest-personality_insights
